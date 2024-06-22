@@ -55,6 +55,8 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Mr_persis_support_group>ѕυρρσят</a>
 
 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Mr_persis_bot>ᴜᴘᴅᴀᴛᴇ</a></b>
+
+👥 ɪɴꜱᴛᴀɢʀᴀᴍ: <a href=https://www.instagram.com/itz_.shubham_47>ᴄᴏɴᴛᴀᴄᴛ ꜰᴏʀ Qᴜᴇʀʏ</a></b>
 """
 
     CABOUT_TXT = """<b>ɪ ᴀᴍ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴘʏᴛʜᴏɴ ʟᴀɴɢᴢ ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ꜱᴛᴏʀᴇ ꜰɪʟᴇꜱ ᴀɴᴅ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ʙʏ ʟɪɴᴋ/ᴋᴇʏ
@@ -69,7 +71,9 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 
 👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Mr_persis_support_group>ѕυρρσят</a>
 
-📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Mr_persis_bot>ᴜᴘᴅᴀᴛᴇ
+📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Mr_persis_bot>ᴜᴘᴅᴀᴛᴇ</a>
+
+👥 ɪɴꜱᴛᴀɢʀᴀᴍ: <a href=https://www.instagram.com/itz_.shubham_47>ᴄᴏɴᴛᴀᴄᴛ ꜰᴏʀ Qᴜᴇʀʏ</a>
 """
 
 # Don't Remove Credit Tg - @VJ_Botz
