@@ -88,7 +88,7 @@ async def start(client, message):
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("**🔺 ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ**")
+        sts = await message.reply("**ꜱʜᴀᴅᴏᴡ ᴍᴏɴᴀʀᴄʜ ʜᴀꜱ ꜱᴛᴀʀᴛᴇᴅ ʜɪꜱ ᴡᴏʀᴋ ᴡᴇʟʟ ᴅᴏɴᴇ**")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
@@ -134,7 +134,7 @@ async def start(client, message):
 # Ask Doubt on telegram @KingVJ01
     
     elif data.split("-", 1)[0] == "DSTORE":
-        sts = await message.reply("**🔺 ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ**")
+        sts = await message.reply("**ꜱʜᴀᴅᴏᴡ ᴍᴏɴᴀʀᴄʜ ʜᴀꜱ ꜱᴛᴀʀᴛᴇᴅ ʜɪꜱ ᴡᴏʀᴋ ᴡᴇʟʟ ᴅᴏɴᴇ**")
         b_string = data.split("-", 1)[1]
         decoded = (base64.urlsafe_b64decode(b_string + "=" * (-len(b_string) % 4))).decode("ascii")
         await message.reply_text(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
