@@ -170,21 +170,21 @@ async def start(client, message):
                     media = getattr(msg, msg.media)
                     file_name = getattr(media, 'file_name', '')
                     f_caption = getattr(msg, 'caption', file_name)
-                try:
-                    h = await message.reply_text(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
-                    k = await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False)
+               # try:
+                   # h = await message.reply_text(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
+                  #  k = await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False)
                     
-                    asyncio.create_task(delete_after_delay(k, AUTO_DELETE_TIME))
-                    asyncio.create_task(delete_after_delay(h, AUTO_DELETE_TIME))
-                except FloodWait as e:
-                    await asyncio.sleep(e.x)
-                    await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False)
-                except Exception as e:
-                    logger.exception(e)
-                    continue
-            elif msg.empty:
-                continue
-            else:
+                 #   asyncio.create_task(delete_after_delay(k, AUTO_DELETE_TIME))
+                #    asyncio.create_task(delete_after_delay(h, AUTO_DELETE_TIME))
+               # except FloodWait as e:
+                 #   await asyncio.sleep(e.x)
+                #    await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False)
+               # except Exception as e:
+              #      logger.exception(e)
+             #       continue
+            #elif msg.empty:
+           #     continue
+           # else:
                 try:
                     await msg.copy(message.chat.id, protect_content=True if protect == "/pbatch" else False)
                 except FloodWait as e:
